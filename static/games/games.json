@@ -1,0 +1,14 @@
+{
+  "games": [
+    {
+      "name": "Osu!",
+      "path": "./gs/osu/index.html",
+      "image": "./gs/osu/logo.png"
+    },
+    {
+      "name": "EaglerCraftx",
+      "path": "./gs/eaglercraftx/index.html",
+      "image": "./gs/eaglercraftx/logo.png"
+    }
+  ]
+}
