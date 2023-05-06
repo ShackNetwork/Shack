@@ -1,0 +1,104 @@
+* {
+  font-size: 25px;
+  font-family: Trebuchet MS	;
+}
+html {
+    background: #1f1f1f;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.nav-links-container {
+  margin-right: 10px;
+}
+
+#logo {
+  display: inline-block;
+  height: 40px;
+}
+#logo:hover {
+  filter: brightness(5.0);
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: white;
+  color: black;
+}
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 400px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+input[type="text"]:hover {
+  filter: brightness(5.0);
+}
+
+input[type="text"]::placeholder {
+  color: #ffffff;
+  border: none;
+}
+#Matrix {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sklogo {
+  margin-bottom: 20px;
+}
+.search-box{
+  margin-bottom: 20px;
+}
+.button-container button{
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.button-container button:hover{
+  filter: brightness(5.0);
+}
