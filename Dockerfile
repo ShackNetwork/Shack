@@ -1,1 +1,0 @@
-CMD ["sh", "main.sh"]
