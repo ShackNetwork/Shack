@@ -5,3 +5,8 @@
 Shack Was made due to the "30 minute Coding Challenge" in which, you code a proxy in 30 minutes (FrontEnd)
 </div>
 <h1 align="center">Setup</h1>
+<div align="center">
+  Commands
+  ```npm i```
+  ```npm start```
+</div>
