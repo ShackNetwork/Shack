@@ -11,6 +11,7 @@ Shack is a simple frontend proxy server designed as part of a 30 minute coding c
 To use Shack, you'll need to have Node.js installed on your system. Once you have Node.js installed, you can install Shack using the following commands:
 
 ```npm install```
+<br>
 ```npm start```
 
 This will start the Shack proxy server, which listens for HTTP requests on port 3000 by default. To use the proxy, simply point your web browser or other HTTP client to http://localhost:3000 and send your requests through the proxy.
